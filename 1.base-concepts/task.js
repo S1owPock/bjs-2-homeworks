@@ -6,15 +6,12 @@ function solveEquation(a, b, c) {
   let sqrtTwo;
   let D = b**2-4*a*c;
   
-  if (D < 0) {
-    console.log("Корней нет");
-  } 
-  else if (D === 0) {
+  if (D === 0) {
     sqrtOne = -b/(2*a);
     arr.push(sqrtOne);
     console.log(arr);
   } 
-  else {
+  else if {
     sqrtOne = (-b + Math.sqrt(D) )/(2*a);
     sqrtTwo = (-b - Math.sqrt(D) )/(2*a);
     arr.push(sqrtOne);
