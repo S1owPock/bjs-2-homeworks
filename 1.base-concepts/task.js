@@ -11,7 +11,7 @@ function solveEquation(a, b, c) {
     arr.push(sqrtOne);
     console.log(arr);
   } 
-  else if {
+  else if (D > 0) {
     sqrtOne = (-b + Math.sqrt(D) )/(2*a);
     sqrtTwo = (-b - Math.sqrt(D) )/(2*a);
     arr.push(sqrtOne);
